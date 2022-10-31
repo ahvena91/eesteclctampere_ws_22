@@ -14,7 +14,7 @@ def initdb(db='eestec.db'):
     # executing command CREATE TABLE to create table with two columns
     c.execute('CREATE TABLE IF NOT EXISTS data_table('
         'date text,'
-        'datapoint integer)')
+        'data integer)')
 
     # commit saves changes to the database
     conn.commit()
