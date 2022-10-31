@@ -4,6 +4,9 @@ env.cfg
 # let's not store the actual database in git
 *.db
 
+# ignoring plotted images too
+*.png
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
