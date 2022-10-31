@@ -12,9 +12,9 @@ def initdb(db='eestec.db'):
     c = conn.cursor()
 
     # executing command CREATE TABLE to create table with two columns
-    c.execute('CREATE TABLE IF NOT EXISTS hrv('
+    c.execute('CREATE TABLE IF NOT EXISTS data_table('
         'date text,'
-        'hrv integer)')
+        'datapoint integer)')
 
     # commit saves changes to the database
     conn.commit()
