@@ -37,7 +37,7 @@ Base project for Great Northern Health Tracking Trek. EESTEC LC Tampere workshop
 
 - `pip install python-telegram-bot -U --pre`
   - pre-releases https://github.com/python-telegram-bot/python-telegram-bot/wiki/introduction-to-the-API
-  - If you want to use older version like 13.0
+  - If you want to use older version like 13.0 the syntax is quite different.
 
 ### Data is stored with sqlite3 database so let's install that
 
@@ -103,7 +103,4 @@ Base project for Great Northern Health Tracking Trek. EESTEC LC Tampere workshop
     - `sqlite3 <nameofdatabase>`
     - `.tables` lists created data tables
     - `SELECT <data> FROM <nameoftable>` lists added datapoints
-      - for example: `SELECT datapoint FROM data_table` 
-
-
-
+      - for example: `SELECT datapoint FROM data_table`
