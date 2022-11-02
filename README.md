@@ -111,7 +111,4 @@ Base project for Great Northern Health Tracking Trek. EESTEC LC Tampere workshop
     - `sqlite3 <nameofdatabase>`
     - `.tables` lists created data tables
     - `SELECT <data> FROM <nameoftable>` lists added datapoints
-      - for example: `SELECT datapoint FROM data_table` 
-
-
-
+      - for example: `SELECT datapoint FROM data_table`
